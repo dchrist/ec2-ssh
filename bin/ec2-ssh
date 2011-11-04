@@ -4,7 +4,7 @@
 #/ For list of instance, run ec2-host without any paramteres
 
 
-USAGE="Usage: `basename $0` [-h] [-r region] args"
+USAGE="Usage: `basename $0` [-h] [-r region] <instance-name>"
 
 # Parse command line options.
 while getopts hr: OPT; do
